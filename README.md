@@ -23,6 +23,10 @@ npx bump-cli preview http://localhost:8080/openapi
 
 Want to see how it will look without downloading anything? Take a look at this documentation [deployed with Bump.sh](https://bump.sh/bump-examples/hub/code-samples/doc/spring-code-first) already.
 
+## Thanks 
+
+The sample code was inspired by https://github.com/spring-guides/tut-rest
+
 ## License
 
 The contents of this repository are licensed under [CC BY-NC-SA
