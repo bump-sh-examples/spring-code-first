@@ -27,7 +27,7 @@ jobs:
 
       - name: Build and run the application
         run: |
-          ./mvnw clean package spring-boot:run &
+          mvn clean spring-boot:run &
 
       - name: Wait for the application to start
         run: sleep 30
