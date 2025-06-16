@@ -23,7 +23,8 @@ class Employee {
   @Schema(description = "Employee name", example = "Bilbo Baggins")
   private String name;
 
-  @Schema(description = "Employee role", example = "Software Engineer")
+  @Schema(description = "Employee role", example = "Software Engineer", deprecated = true)
+  @Deprecated
 	private String role;
 
 	Employee() {}
